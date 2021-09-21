@@ -71,11 +71,16 @@ function sumNumbers(num1, num2) {
 }
 sumNumbers(10, 10);
 
-// While loop
+/* While loop
 
 var num = 0;
 
 while (num < 100) {
     num += 5;
+    console.log(num);
+} */
+
+// For loop
+for (let num = 0; num <= 100; num+= 2) {
     console.log(num);
 }
