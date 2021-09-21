@@ -84,3 +84,12 @@ while (num < 100) {
 for (let num = 0; num <= 100; num+= 2) {
     console.log(num);
 }
+
+// Data types
+let yourAge = 16; // number
+let yourName = 'Jay' // string
+let name = {first: 'John', last: 'Doe'}; // object
+let truth = false; // boolean
+let groceries = ['apple', 'banana', 'oranges']; // array
+let ramdom; // undefined
+let nothing = null; // value null
