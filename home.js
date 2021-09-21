@@ -93,3 +93,18 @@ let truth = false; // boolean
 let groceries = ['apple', 'banana', 'oranges']; // array
 let ramdom; // undefined
 let nothing = null; // value null
+
+// String in JavaScript (common methods)
+let fruit = 'banana';
+let moreFruit = 'apple\nbanana'; // new line
+
+console.log(fruit.length);
+console.log(fruit.indexOf('nan'));
+console.log(fruit.slice(2, 6));
+console.log(fruit.replace('ban', '123'));
+console.log(fruit.toUpperCase());
+console.log(fruit.toLocaleLowerCase());
+console.log(fruit.charAt(3));
+console.log(fruit[3]);
+console.log(fruit.split(',')); // split by a comma
+console.log(fruit.split('')); // split by a characters
