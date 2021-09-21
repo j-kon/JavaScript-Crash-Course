@@ -59,8 +59,8 @@ function greeting(yourName) {
     var result = 'Hello' + ' ' + yourName; // String Concatenation
     console.log(result);
 }
-var name = prompt('What is your name?');
-greeting(name);
+// var name = prompt('What is your name?');
+// greeting(name);
 
 // How do arguments work in function?
 // How do we add 2 numbers in a function?
@@ -70,3 +70,12 @@ function sumNumbers(num1, num2) {
     console.log(result);
 }
 sumNumbers(10, 10);
+
+// While loop
+
+var num = 0;
+
+while (num < 100) {
+    num += 5;
+    console.log(num);
+}
