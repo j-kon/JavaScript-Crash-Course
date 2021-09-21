@@ -108,3 +108,46 @@ console.log(fruit.charAt(3));
 console.log(fruit[3]);
 console.log(fruit.split(',')); // split by a comma
 console.log(fruit.split('')); // split by a characters
+
+// Array
+
+let fruits = ['banana', 'apple', 'orange', 'pineapples'];
+fruits = new Array ('banana', 'apple', 'orange', 'pineapples');
+
+console.log(fruits[3]); // access value at index 3rd
+
+fruits[3] = 'pear';
+console.log(fruits);
+
+for (let i = 0; i < fruits.length; i++) {
+    console.log(fruits[i]);
+}
+
+// array methods
+console.log('to string', fruits.toString());
+console.log(fruits.join(' - '));
+console.log(fruits.pop(), fruits); // remove last item
+console.log(fruits.push('mangos'), fruits); // appends
+console.log(fruits[3]);
+fruits[fruits.length] = 'melon';
+console.log(fruits);
+fruits.shift(); // remove first element from an array
+console.log(fruits);
+fruits.unshift('lime'); // add first element from an array
+console.log(fruits);
+
+let vegetables = ['asparagus', 'tomato', 'broccoli'];
+let allGroceries = fruits.concat(vegetables);
+console.log(allGroceries);
+console.log(allGroceries.slice(1, 4));
+console.log(allGroceries.reverse());
+
+let someNumbers = [5, 10, 23, 65, 233, 54, 23, 2, 1, 3, 103,];
+console.log(someNumbers.sort(function(a, b){return a-b})); // sorted in ascending order
+console.log(someNumbers.sort(function(a, b){return b-a})); // sorted in decending order
+
+let emptyArray = new Array();
+for (let num = 1; num <= 10; num++) {
+    emptyArray.push(num);
+}
+console.log(emptyArray);
