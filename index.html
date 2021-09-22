@@ -9,7 +9,21 @@
 
 <body>
     <h1 id="someText"></h1>
-    <script src="home.js"></script>
+    <script>
+        let students = `[
+            {
+                "name": "Jay",
+                "age": 23,
+                "height": 172
+            },
+            {
+                "name": "Kon",
+                "age": 24,
+                "height": 171
+            }
+        ]`
+        console.log(JSON.parse(students)[1].age);
+    </script>
 </body>
 
 </html>
